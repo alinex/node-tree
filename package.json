@@ -1,0 +1,46 @@
+{
+  "name": "alinex-tree",
+  "version": "0.0.0",
+  "description": "Use and manipulate tree like structures.",
+  "copyright": "Alexander Schilling 2016",
+  "private": false,
+  "keywords": [
+    "tree",
+    "structure",
+    "linked list"
+  ],
+  "homepage": "http://alinex.github.io/node-tree/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alinex/node-tree"
+  },
+  "bugs": "https://github.com/alinex/node-tree/issues",
+  "author": {
+    "email": "info@alinex.de",
+    "name": "Alexander Schilling",
+    "url": "http://alinex.de"
+  },
+  "contributors": [],
+  "license": "Apache-2.0",
+  "main": "./lib/index.js",
+  "scripts": {
+    "prepublish": "node_modules/.bin/builder compile",
+    "test": "node_modules/.bin/builder test -vvvv"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "alinex-util": "^2.4.2"
+  },
+  "devDependencies": {
+    "alinex-builder": "^2.3.8",
+    "chai": "^3.5.0",
+    "chai-datetime": "^1.4.1"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.10"
+  },
+  "os": []
+}
